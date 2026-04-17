@@ -1,0 +1,132 @@
+# Music Royalty Stream DCF Valuation Model
+
+An Excel-based discounted cash flow (DCF) model for valuing a music royalty catalog using streaming revenue, per-stream rates, decay assumptions, and terminal value analysis.
+
+## Overview
+
+This model estimates the implied value of a music catalog by projecting future royalty cash flows from digital streaming platforms and discounting them back to present value.
+
+It is designed for:
+- Music catalog valuation.
+- Royalty income analysis.
+- Investment underwriting.
+- Sensitivity analysis on key valuation drivers.
+
+## Prepared By
+
+**Dhruva Lepakshi**
+
+## Model Summary
+
+This workbook analyzes an independent artist catalog using:
+- LTM streaming data across major DSPs.
+- Platform-specific per-stream royalty rates.
+- Ownership and rights assumptions.
+- Stream decay and PSR growth assumptions.
+- DCF valuation with terminal value.
+- Sensitivity tables for WACC and terminal growth.
+
+## Key Inputs
+
+### Catalog Overview
+- Artist: Drake
+- Total tracks in catalog: 750
+- Catalog age: 8 years
+- Rights type: Both
+- Ownership share: 75%
+
+### Streaming Platforms
+The model includes:
+- Spotify
+- Apple Music
+- YouTube Music
+- Amazon Music
+- Tidal
+- Other DSPs
+
+### Core Assumptions
+- Projection period: 10 years
+- Stream decay rates:
+  - Years 1–3: -3.0%
+  - Years 4–7: -6.0%
+  - Years 8–10: -8.0%
+- Annual PSR growth: 2.0%
+- Discount rate / WACC: 10.0%
+- Terminal growth rate: -2.0%
+
+## Valuation Outputs
+
+### Base Case Results
+- Sum of projected cash flows: $1.47B
+- Terminal value: $2.41B
+- PV of terminal value: $929.3M
+- Implied catalog value: $2.40B
+- Implied LTM multiple: 12.8x revenue
+
+### Sensitivity Analysis
+The workbook also includes sensitivity tables showing implied catalog value across:
+- Different WACC assumptions.
+- Different terminal growth assumptions.
+- Different stream decay and PSR growth scenarios.
+
+## Methodology
+
+The model works in four steps:
+
+1. Estimate LTM streaming revenue by DSP.
+2. Project future streams using decay assumptions.
+3. Apply blended per-stream royalty rates and PSR growth.
+4. Discount projected cash flows and terminal value to present value.
+
+## Benchmarking
+
+The workbook includes market benchmark ranges for catalog multiples across different catalog ages, comparing masters and publishing multiples from music finance sources.
+
+## Key Concepts
+
+### Per-Stream Rate
+A per-stream rate is the royalty paid to rights holders each time a track is streamed on a DSP.
+
+### DSP Mix
+Different platforms pay different rates, so the mix of streams matters as much as total stream count.
+
+### Stream Decay
+Older catalogs typically experience slower growth or gradual decay over time, which affects long-term royalty value.
+
+### Rights Types
+The model distinguishes between:
+- Masters: sound recordings.
+- Publishing: underlying compositions.
+
+## Limitations
+
+This model focuses primarily on streaming royalty revenue. It does not fully include:
+- Sync income.
+- Live performance revenue.
+- Merchandise revenue.
+- YouTube ad revenue.
+- Territory-specific royalty differences.
+- Private deal structure terms.
+
+## Data Sources
+
+The workbook references:
+- Kworb.net
+- Chartmasters.org
+- Duetti Music Economics Report 2024
+- Duetti Billboard Music Finance Index
+- Royalty Exchange transaction multiples
+- Spotify Wrapped 2025
+- Other industry estimates and public sources
+
+## Files
+
+- `Dhruva-Lepakshi-Duetti-Music-Royalty-DCF-2.xlsx`
+
+## License
+
+This project is intended for educational and analytical purposes.
+
+## Contact
+
+Created by Dhruva Lepakshi.
